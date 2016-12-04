@@ -26,8 +26,8 @@ comments: true
 [文字][链接]
 [链接]: http://www.baidu.com
 ~~~
-[文字][链接]
-[链接]: http://www.baidu.com
+[文字][test]
+[test]: http://www.baidu.com
 
 
 
