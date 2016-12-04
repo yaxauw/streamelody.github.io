@@ -10,11 +10,13 @@ comments: true
 昨天，鬼使神差地上了咱学校的FTP，就往里面随便翻翻，也就找出了《墨攻》这部电影。
 
 对《墨攻》这部电影我也没什么特别的感觉，唯一的是想起了杨老师在讲孙子兵法时说的几句话。
+
 > He who relies solely on warlike measures shall be exterminated;
 <br/>
 > he who relies solely on peaceful measures shall perish.
 <br/>
 > 穷兵黩武者终将自毙，卸甲无备者不可图存。
+
 <!--more-->
 有人评论诸葛亮七出岐山是穷兵黩武。我就感到十分的不解。因为在我的观念里，诸葛亮一直都是一个非常有责任心的人，他的行为是他的责任心的写照，一份对自己承诺的责任。
 
