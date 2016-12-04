@@ -9,6 +9,8 @@ comments: true
 
 这是一个注释[^1]测试。
 
+[^1]: <http://test.baidu.com>
+
 <!--more-->
 `灰底黄字测试。`
 
@@ -23,24 +25,84 @@ comments: true
 
 ### 超链接设置
 ~~~css
-[文字][链接]
+[文字1][标签1]，[文字2][标签2]
 
-[链接]: http://www.baidu.com
-注意两者之间要空一行。
+[标签1]: http://www.baidu.com
+[标签2]: http://www.baidu.com
+注意两者之间要空一行，常用多个链接，而且便于阅读.md源码。
 ~~~
 
+### 超链接设置
+~~~css
+网址之间用<括起来>。
+[link](http://www.mademistakes.com) 
+~~~
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. 
+## HTML Elements
+二级标题下面有条线
 
-[jekyll]:      http://jekyllrb.com
+###### Heading 6
+六级标题默认大写
+
+### Heading 3
+一般用三级标题
+
+**粗体**
+~~~
+**粗体**
+~~~
+*斜体*
+~~~
+*斜体*
+~~~
+
+### 块引用
+
+> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
 
 
 
+### 插入图片
+![Smithsonian Image]({{ site.url }}/assets/blogImg/wild_china.jpg)
+
+<img src="{{ site.url }}/assets/blogImg/MacQQ_ScreenShot_high.png" width="409" alt="QQ高清质量截图"/>
+
+<p align="center"> ![美丽中国]({{ site.url }}/assets/blogImg/wild_china.jpg) </p>
 
 
 
+### Ordered Lists
+
+1. Item one
+1. sub item one
+2. sub item two
+3. sub item three
+2. Item two
+
+### Unordered Lists
+
+* Item one
+* Item two
+* Item three
+
+以下是注释
 
 
-[^1]: <http://test.baidu.com>
+## 按钮
+
+Make any link standout more when applying the `.btn` class.
+
+{% highlight html %}
+<a href="#" class="btn btn-success">Success Button</a>
+{% endhighlight %}
+
+<div markdown="0"><a href="http://www.baidu.com" class="btn btn-info">下载链接</a>
+<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
+
+
 
 
