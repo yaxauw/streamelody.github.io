@@ -1,65 +1,70 @@
 #
 ###################################
-# Site wide configuration
+# 站点配置
 ####################################
 #
-title:       "Renyuan's blog"
-description: 'A backend developer who loves design awesome things. Working at RendezvousCheznous.com in Marseille, France.'
+# 标题
+title:       "Streamelody's Blog"
+# 描述
+description: '闲庭信步，看花开花落。'
 url:         # the base hostname & protocol for your site
 
 #
 ###################################
-# Jekyll configuration
+# Jekyll 配置
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Asia/Shanghai
 markdown:          kramdown
 highlighter:       pygments
 excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
-timezone:          Europe/Paris
+# permalink:         /articles/:year/:month/:title/
+permalink:         /:year/:month/:title/
+timezone:          Asia/Shanghai
 
 kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  enable_coderay: false
+auto_ids:       true
+footnote_nr:    1
+entity_output:  as_char
+toc_levels:     1..6
+enable_coderay: false
 
 #
 ###################################
-# Site Owner configuration
+# 站点所有者配置
 ####################################
 #
 owner:
-  name: Renyuan
-  avatar: avatar.jpg
-  job: "PHP & Ruby Developer"
-  bio: "A backend developer who loves design awesome things. Working for RendezvousCheznous atm in Marseille, France."
-  email: zourenyuan@gmail.com
-  disqus-shortname: renyuanzblog
-  twitter: alittlered3 #username
-  facebook: #username
-  google:
-    plus: #username
-    analytics: UA-62251910-1
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: renyuanz #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
+name: Streamelody
+avatar: avatar.jpg
+job: "Streamelody's Blog"
+bio: "Down by yon shady harbour, I carelessly did stray; down in yon shady bower, pleasure would surround you."
+
+github: streamelody #username
+weibo: bailuer #username
+facebook: 7loiter #username
+email: shuangyeying@gmail.com
+
+google:
+plus: #username
+analytics:
+verify:
+ad-client:
+ad-slot:
+twitter: #username
+bing-verify:
+disqus-shortname: #username
+stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+linkedin: #username
+xing: #username
+instagram: #username
+lastfm: #username
+tumblr: #username
+pinterest: #username
+foursquare: #username
+steam: #username
+dribbble: #username
+youtube: #username
+soundcloud: #username
+flickr: #username
+codepen: #username
