@@ -1,11 +1,6 @@
 ---
 layout: post
 title: 一件小事的回忆
-excerpt: "昨天，鬼使神差地上了咱学校的FTP，就往里面随便翻翻，也就找出了《墨攻》这部电影。
-对《墨攻》这部电影我也没什么特别的感觉，唯一的是想起了杨老师在讲孙子兵法时说的几句话。
-- He who relies solely on warlike measures shall be exterminated;
-- he who relies solely on peaceful measures shall perish.
-- 穷兵黩武者终将自毙，卸甲无备者不可图存。"
 date: 2010-12-12 15:12:18
 categories: [随笔]
 tags: [心情]
@@ -16,9 +11,6 @@ comments: true
 昨天，鬼使神差地上了咱学校的FTP，就往里面随便翻翻，也就找出了《墨攻》这部电影。
 
 对《墨攻》这部电影我也没什么特别的感觉，唯一的是想起了杨老师在讲孙子兵法时说的几句话。
-
-> And this is how a quote looks.
-
 > He who relies solely on warlike measures shall be exterminated;
 > he who relies solely on peaceful measures shall perish.
 > 穷兵黩武者终将自毙，卸甲无备者不可图存。
