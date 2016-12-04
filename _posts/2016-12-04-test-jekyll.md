@@ -27,7 +27,7 @@ comments: true
 [链接]: http://www.baidu.com
 ~~~
 
-这是一个[文字][test]链接。
+这是一个[testing][test]链接。
 测试测试
 [test]: http://www.baidu.com
 
