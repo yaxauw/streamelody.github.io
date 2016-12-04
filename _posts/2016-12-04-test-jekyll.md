@@ -23,14 +23,6 @@ comments: true
 }
 ~~~
 
-```
-#container {
-float: left;
-margin: 0 -240px 0 0;
-width: 100%;
-}
-```
-
 ### 超链接设置
 ~~~css
 [文字1][标签1]，[文字2][标签2]
@@ -72,7 +64,6 @@ width: 100%;
 
 ### 插入图片
 
-图片居中
 {: .center}
 ![image]({{ site.url }}/assets/blogImg/wild_china.jpg)
 
@@ -80,10 +71,6 @@ width: 100%;
 ![Smithsonian Image]({{ site.url }}/assets/blogImg/wild_china.jpg)
 
 <img src="{{ site.url }}/assets/blogImg/MacQQ_ScreenShot_high.png" width="409" alt="QQ高清质量截图"/>
-
-<p align="center"><img src="{{ site.url }}/assets/blogImg/wild_china.jpg"alt="Wild China"/></p>
-
-
 
 ### Ordered Lists
 
