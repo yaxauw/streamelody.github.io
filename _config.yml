@@ -1,0 +1,70 @@
+#
+###################################
+# 站点配置
+####################################
+#
+# 标题
+title:       "Streamelody's Blog"
+# 描述
+description: '闲庭信步，看花开花落。'
+url:         # the base hostname & protocol for your site
+
+#
+###################################
+# Jekyll 配置
+####################################
+#
+timezone:          Asia/Shanghai
+markdown:          kramdown
+highlighter:       pygments
+excerpt_separator: <!--more-->
+# permalink:         /articles/:year/:month/:title/
+permalink:         /:year/:month/:title/
+timezone:          Asia/Shanghai
+
+kramdown:
+auto_ids:       true
+footnote_nr:    1
+entity_output:  as_char
+toc_levels:     1..6
+enable_coderay: false
+
+#
+###################################
+# 站点所有者配置
+####################################
+#
+owner:
+name: Streamelody
+avatar: avatar.jpg
+job: "Streamelody's Blog"
+bio: "Down by yon shady harbour, I carelessly did stray; down in yon shady bower, pleasure would surround you."
+
+github: streamelody #username
+weibo: bailuer #username
+facebook: 7loiter #username
+email: shuangyeying@gmail.com
+
+google:
+plus: #username
+analytics:
+verify:
+ad-client:
+ad-slot:
+twitter: #username
+bing-verify:
+disqus-shortname: #username
+stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+linkedin: #username
+xing: #username
+instagram: #username
+lastfm: #username
+tumblr: #username
+pinterest: #username
+foursquare: #username
+steam: #username
+dribbble: #username
+youtube: #username
+soundcloud: #username
+flickr: #username
+codepen: #username
