@@ -21,6 +21,13 @@ comments: true
 }
 ~~~
 
+### 超链接设置
+~~~css
+[文字][链接]
+[链接]: http://www.baidu.com
+~~~
+
+
 
 
 
