@@ -11,14 +11,32 @@ comments: true
 
 <!--more-->
 
-# 测试代码块
-~~~ css
+### 测试代码块
+
+`灰底黄字测试。`
+
+### Pygments Code Blocks
+
+To modify styling and highlight colors edit `/_sass/_pygments.scss`.
+
+{% highlight css %}
 #container {
-float: left;
-margin: 0 -240px 0 0;
-width: 100%;
+    float: left;
+    margin: 0 -240px 0 0;
+    width: 100%;
+}
+{% endhighlight %}
+
+~~~css
+#container {
+    float: left;
+    margin: 0 -240px 0 0;
+    width: 100%;
 }
 ~~~
+
+
+
 
 [^1]: <http://test.baidu.com>
 
