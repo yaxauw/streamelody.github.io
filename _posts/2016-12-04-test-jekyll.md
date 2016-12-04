@@ -27,10 +27,10 @@ comments: true
 [链接]: http://www.baidu.com
 ~~~
 
-Check out the [Jekyll docs][jekyll] for more
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. 
 [jekyll]:      http://jekyllrb.com
-
-
+[jekyll-gh]:   https://github.com/jekyll/jekyll
 
 
 
