@@ -28,7 +28,7 @@
   }
   .author_name {
     display: block;
-    color: $text-color;
+    color: #800040;
     font-size: 1.75em;
     font-weight: 600;
     text-transform: capitalize;
@@ -45,7 +45,7 @@
     display: block;
   }
   @include media-query($medium-screen) {
-    text-align: left;
+    text-align: center;
     margin: 0 auto;
     padding: 0 0px 80px;
   }
