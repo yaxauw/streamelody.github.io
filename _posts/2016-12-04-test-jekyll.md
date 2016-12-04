@@ -13,7 +13,7 @@ comments: true
 `灰底黄字测试。`
 
 ### 测试代码块//需要需要自己格式化
-~~~ css
+~~~ ruby
 #container {
     float: left;
     margin: 0 -240px 0 0;
@@ -21,21 +21,6 @@ comments: true
 }
 ~~~
 
-~~~ html
-#container {
-float: left;
-margin: 0 -240px 0 0;
-width: 100%;
-}
-~~~
-
-~~~ ruby
-#container {
-float: left;
-margin: 0 -240px 0 0;
-width: 100%;
-}
-~~~
 
 
 
