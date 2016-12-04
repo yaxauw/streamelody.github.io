@@ -26,7 +26,9 @@ comments: true
 [文字][链接]
 [链接]: http://www.baidu.com
 ~~~
-[文字][test]
+
+这是一个[文字][test]链接。
+测试测试
 [test]: http://www.baidu.com
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
