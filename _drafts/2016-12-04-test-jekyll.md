@@ -3,7 +3,7 @@ layout: post
 title: 测试jekyll功能 
 categories: [Jekyll, 测试]
 tags: [jekyll, tutorial]
-modified: 2016-12-04 14:57:49
+date: 2016-11-11 15:12:18
 comments: true
 ---
 
@@ -98,13 +98,14 @@ Make any link standout more when applying the `.btn` class.
 <a href="#" class="btn btn-success">Success Button</a>
 {% endhighlight %}
 
-<div markdown="0"><a href="http://www.baidu.com" class="btn btn-info">下载链接</a>
+<div markdown="0"><a href="http://www.baidu.com" class="btn btn-info">下载链接</a></div>
 <div markdown="0"><a href="#" class="btn">Primary Button</a></div>
 <div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
 <div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
 <div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
 <div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
 
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" src="http://music.163.com/outchain/player?type=2&id=25879188&auto=1&height=32"></iframe>
 
 
 
