@@ -24,14 +24,16 @@ comments: true
 ### 超链接设置
 ~~~css
 [文字][链接]
+
 [链接]: http://www.baidu.com
+注意两者之间要空一行。
 ~~~
 
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. 
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. 
 
 [jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
+
 
 
 
