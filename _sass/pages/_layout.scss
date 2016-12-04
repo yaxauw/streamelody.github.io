@@ -28,24 +28,24 @@
   }
   .author_name {
     display: block;
-    color: #F36170;
+    color: $text-color;
     font-size: 1.75em;
-    text-transform: lowercase;
+    font-weight: 600;
+    text-transform: capitalize;
   }
   .author_job {
     display: block;
-    color: $secondary;
+    color: lighten($text-color, 35%);
     font-size: 0.8em;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: -5px auto 10px;
+    font-weight: 600;
+    margin: 0 auto 10px;
   }
   .author_bio {
     font-size: 90%;
     display: block;
   }
   @include media-query($medium-screen) {
-    text-align: right;
+    text-align: left;
     margin: 0 auto;
     padding: 0 0px 80px;
   }
@@ -58,7 +58,7 @@
     li {
       list-style: none;
       display: inline-block;
-      margin-left: 1em;
+      margin-right: 1em;
       a.social-link-item {
         color: $secondary;
         &:hover,

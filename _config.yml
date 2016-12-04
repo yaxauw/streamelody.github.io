@@ -23,11 +23,11 @@ permalink:         /:year/:month/:title/
 timezone:          Asia/Shanghai
 
 kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  enable_coderay: false
+auto_ids:       true
+footnote_nr:    1
+entity_output:  as_char
+toc_levels:     1..6
+enable_coderay: false
 
 #
 ###################################
@@ -35,36 +35,36 @@ kramdown:
 ####################################
 #
 owner:
-  name: Streamelody
-#  avatar: avatar.png
-  job: "Streamelody's Blog"
-  bio: "Down by yon shady harbour, I carelessly did stray; down in yon shady bower, pleasure would surround you."
+name: Streamelody
+avatar: avatar.jpg
+job: "Streamelody's Blog"
+bio: "Down by yon shady harbour, I carelessly did stray; down in yon shady bower, pleasure would surround you."
 
-  github: streamelody #username
-  weibo: bailuer #username
-  facebook: 7loiter #username
-  email: shuangyeying@gmail.com
+github: streamelody #username
+weibo: bailuer #username
+facebook: 7loiter #username
+email: shuangyeying@gmail.com
 
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  twitter: #username
-  bing-verify:
-  disqus-shortname: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  flickr: #username
-  codepen: #username
+google:
+plus: #username
+analytics:
+verify:
+ad-client:
+ad-slot:
+twitter: #username
+bing-verify:
+disqus-shortname: #username
+stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+linkedin: #username
+xing: #username
+instagram: #username
+lastfm: #username
+tumblr: #username
+pinterest: #username
+foursquare: #username
+steam: #username
+dribbble: #username
+youtube: #username
+soundcloud: #username
+flickr: #username
+codepen: #username
