@@ -22,10 +22,12 @@ html {
 
 blockquote {
   display: block;
-	position: relative;
+  position: relative;
   padding-left: 20px;
   font-style: italic;
-  border-left: 5px solid $secondary;
+  margin-left: 5px;
+  border-left: 5px solid $primary;
+  background: $background-color;
 }
 
 //
@@ -34,10 +36,10 @@ blockquote {
 
 a {
    text-decoration: none;
-   color: $primary;
+   color: $info;
    &:hover,
    &:focus {
-     color: lighten($primary, 14%);
+     color: lighten($info, 14%);
      text-decoration: none;
    }
 }
