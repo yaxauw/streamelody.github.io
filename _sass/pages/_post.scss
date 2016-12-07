@@ -127,6 +127,20 @@ a.read-more {
   font-size: 16px;
   line-height: 16px;
 }
+
+//.next和.previous为post中的
+.previous{
+  margin-top: 20px;
+  float:left
+}
+
+.next{
+  margin-top: 20px;
+  float:right
+}
+
+
+
 .post-nav-prev,
 .post-nav-next {
   min-height: 10px;
