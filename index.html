@@ -14,7 +14,7 @@ layout: default
     <div class="post">
         <h3 class="post-list__post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h3>
         
-        <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 300 }}&hellip;</p>
+        <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 200 }}&hellip;</p>
         
         <p class="post-meta">
         <span class="home-post-date">
