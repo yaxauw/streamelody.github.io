@@ -5,14 +5,27 @@ layout: default
 <!-- 遍历分页后的文章 -->
 <div class="posts">
     {% for post in paginator.posts %}
+        <p class="post-meta">
+        <span class="post-date">
+            {{ post.date | date: "%Y-%m-%d" | upcase }}
+        </span>
+        {% if post.categories.size > 0 %}
+            •
+        {% for cat in post.categories %}
+            <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
+        {% unless forloop.last %}
+            <span>/</span>
+        {% endunless %}
+        {% endfor %}
+        {% endif %}
+    </p>
     <div class="post">
-        <h1 class="post-title">
+        <h2 class="post-title">
             <a href="{{ post.url }}">
                 {{ post.title }}
             </a>
-        </h1>
-        <span class="post-date">{{ post.date | date_to_string }}</span>
-        {{ post.excerpt }}
+        </h2>
+            {{ post.excerpt }}
         <a style="text-align:right; display:inherit" href="{{ post.url }}">
             继续阅读
         </a>
