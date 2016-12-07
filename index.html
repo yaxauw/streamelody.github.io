@@ -5,20 +5,8 @@ layout: default
 <!-- 遍历分页后的文章 -->
 <div class="posts">
     {% for post in paginator.posts %}
-        <p class="post-meta">
-        <span class="post-date">
-            {{ post.date | date: "%Y-%m-%d" | upcase }}
-        </span>
-        {% if post.categories.size > 0 %}
-            •
-        {% for cat in post.categories %}
-            <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
-        {% unless forloop.last %}
-            <span>/</span>
-        {% endunless %}
-        {% endfor %}
-        {% endif %}
-    </p>
+
+    
     <div class="post">
         <h2 class="post-title">
             <a href="{{ post.url }}">
@@ -27,13 +15,33 @@ layout: default
         </h2>
         <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 300 }}&hellip;</p>
         
-        <a style="text-align:right; display:inherit" href="{{ post.url }}">
-            继续阅读
-        </a>
+        <p class="post-meta">
+        <span class="post-date">
+            {{ post.date | date: "%Y-%m-%d" | upcase }}
+        </span>
+        {% if post.categories.size > 0 %}
+        •
+        {% for cat in post.categories %}
+        <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
+        {% unless forloop.last %}
+        <span>/</span>
+        {% endunless %}
+        {% endfor %}
+        {% endif %}
+        </p>
+        
+<div class = "post-list-small-mate">
+    <a class="btn-border-small" href={{ post.url }}>阅读全文</a>
+</div>
+
         <hr />
     </div>
     {% endfor %}
 </div>
+
+
+
+
 
 
 <!-- 分页链接 -->

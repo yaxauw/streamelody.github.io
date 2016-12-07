@@ -90,3 +90,19 @@
     border-color: $info;
   }
 }
+
+//Read More Button
+.post-list-small-mate {
+  margin-top: -38px;
+  margin-left: 100px;
+  float: left;
+  color: #4F4F4F;
+}
+
+.btn-border-small {
+  border: 1px solid $catred;
+  border-radius: 20px;
+  padding: 6px 8px;
+  font-size: .8em;
+  margin-left: 10px;
+}
