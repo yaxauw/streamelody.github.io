@@ -25,7 +25,8 @@ layout: default
                 {{ post.title }}
             </a>
         </h2>
-            {{ post.content | strip_html | truncatewords: 75 }}
+        <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 300 }}&hellip;</p>
+        
         <a style="text-align:right; display:inherit" href="{{ post.url }}">
             继续阅读
         </a>
