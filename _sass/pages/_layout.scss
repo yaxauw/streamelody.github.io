@@ -28,7 +28,7 @@
   }
   .author_name {
     display: block;
-    color: #800040;
+    color: $catred;
     font-size: 1.5em;
     font-weight: 500;
     text-transform: capitalize;
@@ -37,7 +37,6 @@
     display: block;
     color: lighten($text-color, 5%);
     font-size: 1.0em;
-    font-weight: 500;
     margin: 0 auto 10px;
   }
   .author_bio {
@@ -60,10 +59,11 @@
       display: inline-block;
       margin-right: 1em;
       a.social-link-item {
-        color: $secondary;
+        font-size: 1.0em;
+        color: $catred;
         &:hover,
         &:focus {
-          color: lighten($secondary, 14%);
+          color: lighten($catred, 14%);
         }
       }
     }
@@ -80,11 +80,11 @@
     & a {
       margin-top: 1em;
       text-transform: lowercase;
-      font-size: 85%;
-      color: $secondary;
+      font-size: 90%;
+      color: $catred;
       &:hover,
       &:focus {
-        color: lighten($secondary, 14%);
+        color: lighten($catred, 14%);
       }
     }
   }
