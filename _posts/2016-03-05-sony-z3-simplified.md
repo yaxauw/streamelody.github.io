@@ -129,7 +129,7 @@ pm block com.sonymobile.helpapp7
 {% endhighlight %}
 
 ### 恢复指令
-如果需要恢复，将以上语句中的`block`改成`unblock`。
+如果需要恢复，将以上语句中的`block`改成`unblock`。  
 【1】 恢复 what’s new
 {% highlight ruby %}
 pm unblock com.sonymobile.advancedwidget.entrance
