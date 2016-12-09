@@ -18,9 +18,9 @@ comments: true
 <img src="{{ site.url }}/assets/blogImg/tinypng.png" width="658" alt="TinyPNG截图"/>
 
 3. MarkDown中使用img标签添加高清(2x)截图。
-~~~css
+{% highlight html %}
 <img src="截图地址" width="50%" alt="alt属性"/>
-~~~  
+{% endhighlight %}  
 <img src="{{ site.url }}/assets/blogImg/MacQQ_ScreenShot_high.png" width="409" alt="QQ高清质量截图"/>
 
 ### 备注
