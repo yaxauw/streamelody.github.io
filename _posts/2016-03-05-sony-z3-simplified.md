@@ -14,7 +14,7 @@ comments: true
 > 按需要精简的程序，输入如下命令
 
 ### 精简指令
-1. 移除 小窗口（**需要重启手机才能移除**）
+【1】 移除 小窗口（**需要重启手机才能移除**）
 {% highlight ruby %}
 pm block com.sony.smallapp.managerservice
 pm block com.sony.smallapp.appframework
@@ -22,120 +22,120 @@ pm block com.sony.smallapp.launcher
 pm block com.sony.smallapp.app.widget
 {% endhighlight %}
 
-2. 移除 更新中心
+【2】 移除 更新中心
 {% highlight ruby %}
 pm block com.sonyericsson.updatecenter
 {% endhighlight %}
 
-3. 移除 备份和恢复
+【3】 移除 备份和恢复
 {% highlight ruby %}
 pm block com.sonymobile.synchub
 {% endhighlight %}
 
-4. 移除 索尼精选
+【4】 移除 索尼精选
 {% highlight ruby %}
 pm block com.sonymobile.sonyselect
 {% endhighlight %}
 
-5. 移除 Xperia乐享汇
+【5】 移除 Xperia乐享汇
 {% highlight ruby %}
 pm block com.sonyericsson.xhs
 pm block com.sonymobile.xperialounge.services
 {% endhighlight %}
 
-6. 移除 谷歌图书
+【6】 移除 谷歌图书
 {% highlight ruby %}
 pm block com.google.android.apps.books
 {% endhighlight %}
 
-7. 移除 云端硬盘
+【7】 移除 云端硬盘
 {% highlight ruby %}
 pm block com.google.android.apps.docs
 {% endhighlight %}
 
-8. 移除 谷歌新闻和天气
+【8】 移除 谷歌新闻和天气
 {% highlight ruby %}
 pm block com.google.android.apps.genie.geniewidget
 {% endhighlight %}
 
-9. 移除 谷歌的Gmail
+【9】 移除 谷歌的Gmail
 {% highlight ruby %}
 pm block com.google.android.gm
 {% endhighlight %}
 
-10. 移除 Gmail读者服务
+【10】 移除 Gmail读者服务
 {% highlight ruby %}
 pm block com.sonymobile.gmailreaderservice
 {% endhighlight %}
 
-11. 移除 环聊
+【11】 移除 环聊
 {% highlight ruby %}
 pm block com.google.android.talk
 {% endhighlight %}
 
-12. 移除 谷歌报亭
+【12】 移除 谷歌报亭
 {% highlight ruby %}
 pm block com.google.android.apps.magazines
 {% endhighlight %}
 
-13. 移除 谷歌地图
+【13】 移除 谷歌地图
 {% highlight ruby %}
 pm block com.google.android.apps.maps
 {% endhighlight %}
 
-14. 移除 谷歌游戏
+【14】 移除 谷歌游戏
 {% highlight ruby %}
 pm block com.google.android.play.games
 {% endhighlight %}
 
-15. 移除 谷歌+
+【15】 移除 谷歌+
 {% highlight ruby %}
 pm block com.google.android.apps.plus
 {% endhighlight %}
 
-16. 移除 Lifelog
+【16】 移除 Lifelog
 {% highlight ruby %}
 pm block com.sonymobile.lifelog
 {% endhighlight %}
 
-17. 移除 影片创作工具
+【17】 移除 影片创作工具
 {% highlight ruby %}
 pm block com.sonymobile.moviecreator.rmm
 {% endhighlight %}
 
-18. 移除 What’s New
+【18】 移除 What’s New
 {% highlight ruby %}
 pm block com.sonymobile.advancedwidget.entrance
 {% endhighlight %}
 
-19. 移除 谷歌电影
+【19】 移除 谷歌电影
 {% highlight ruby %}
 pm block com.google.android.videos
 {% endhighlight %}
 
-20. 移除 youtube
+【20】 移除 youtube
 {% highlight ruby %}
 pm block com.google.android.youtube
 {% endhighlight %}
 
-21. 移除谷歌搜索框
+【21】 移除谷歌搜索框
 {% highlight ruby %}
 pm block com.google.android.googlequicksearchbox
 {% endhighlight %}
 
-22. 移除 支持
+【22】 移除 支持
 {% highlight ruby %}
 pm block com.sonymobile.helpapp7
 {% endhighlight %}
 
 ### 恢复指令
 如果需要恢复，将以上语句中的`block`改成`unblock`。
-1. 恢复 what’s new
+【1】 恢复 what’s new
 {% highlight ruby %}
 pm unblock com.sonymobile.advancedwidget.entrance
 {% endhighlight %}
 
-2. 恢复 小窗口 （**需要重启手机才能消失**）
+【2】 恢复 小窗口 （**需要重启手机才能消失**）
 {% highlight ruby %}
 pm unblock com.sony.smallapp.launcher
 pm unblock com.sony.smallapp.app.widget
