@@ -15,12 +15,10 @@ comments: true
 
 ### 精简指令
 1. 移除 小窗口（**需要重启手机才能移除**）
-~~~css
-pm block com.sony.smallapp.managerservice
-pm block com.sony.smallapp.appframework
-pm block com.sony.smallapp.launcher
-pm block com.sony.smallapp.app.widget
-~~~
+    pm block com.sony.smallapp.managerservice
+    pm block com.sony.smallapp.appframework
+    pm block com.sony.smallapp.launcher
+    pm block com.sony.smallapp.app.widget
 
 2. 移除 更新中心
 ~~~css
