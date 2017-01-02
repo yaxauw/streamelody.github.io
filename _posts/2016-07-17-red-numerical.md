@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Taylor swift - RED『简谱』
+title: Taylor Swift - RED『简谱』
 categories: [乐谱]
 tags: [乐谱集]
 date: 2016-07-17 21:47:10 
