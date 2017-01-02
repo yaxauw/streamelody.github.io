@@ -1,20 +1,20 @@
 ---
 layout: post
-title: 大鱼『线谱』
+title: Taylor swift - RED『简谱』
 categories: [乐谱]
 tags: [乐谱集]
-date: 2017-01-02 13:13:21 
+date: 2016-07-17 21:47:10 
 comments: true
 ---
 
 ### 乐谱合辑
 [https://streamelody.github.io/sheets/](https://streamelody.github.io/sheets/)
 
-![大鱼『线谱』01]({{ site.url }}/assets/sheets/big_fish/big_fish_01.png)  
-![大鱼『线谱』02]({{ site.url }}/assets/sheets/big_fish/big_fish_02.png) 
+![大鱼『线谱』01]({{ site.url }}/assets/sheets/red/red_01.png)  
+![大鱼『线谱』02]({{ site.url }}/assets/sheets/red/red_02.png) 
 
 <audio autoplay="autoplay" controls="controls">
-<source src="http://link.hhtjim.com/163/413812448.mp3" type="audio/mpeg">
+<source src="http://link.hhtjim.com/163/19292800.mp3" type="audio/mpeg">
 </audio>
 
 🎵🎹继续帮忙把钢琴谱译成双手简谱。  
